@@ -2,7 +2,7 @@
 
 <p align="left">Atualmente estou desenvolvendo um site de carros onde eu aplico todos os conhecimentos adquiridos nos meus estudos, ainda estou criando novas funções. O projeto Model Car está disponível no link:<p>
 
-<p align="left">https://github.com/valeriapessoa/projeto-model-car</p>
+<p align="left">https://modelcar.herokuapp.com/</p>
 
 <p align="left">Desenvolvido com boas práticas de programação o site Model Car usa as seguintes tecnologias:</p>
 
