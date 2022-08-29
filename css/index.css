@@ -6,6 +6,11 @@
   background-color: var(--black);
 }
 
+.menu:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
 .text-container {
   margin-top: 17px;
   display: inline-block;
