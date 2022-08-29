@@ -7,8 +7,8 @@
 <p align="left">Desenvolvido com boas práticas de programação o site Model Car usa as seguintes tecnologias:</p>
 
 <ul>
-  <li>Bootstrap</li>
   <li>JavaScript</li>
+  <li>Bootstrap</li>
   <li>CSS</li>
   <li>HTML</li>
 </ul>
