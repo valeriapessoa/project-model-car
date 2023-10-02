@@ -1,0 +1,418 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --dark: #222222;
+  --grey: #747474;
+  --blue: #08baef;
+  --red: #ff0000;
+}
+
+@font-face {
+  font-family: "Noyh-Black";
+  src: url("../fonts/font-Noyh/Noyh-Black.ttf");
+}
+
+@font-face {
+  font-family: "Noyh-Regular";
+  src: url("../fonts/font-Noyh/Noyh-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noyh-Bold";
+  src: url("../fonts/font-Noyh/Noyh-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Noyh-Light";
+  src: url("../fonts/font-Noyh/Noyh-Light.ttf");
+}
+
+@font-face {
+  font-family: "Noyh-Black";
+  src: url("../fonts/font-Noyh/Noyh-Black.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-Font/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "CarosSoft";
+  src: url("../fonts/caros-soft-cufonfonts/CarosSoft.otf");
+}
+
+body {
+  font-family: "CarosSoft", Helvetica, Arial;
+}
+
+/* Menu */
+.logo {
+  width: 245px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  position: relative;
+  z-index: 6;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-right: auto; /* Move a logo para o início (esquerda) */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Move os links para o final (direita) */
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  margin-right: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link.menu {
+  padding: 0 14px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link.menu.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  left: 0;
+  width: calc(100% - 20px);
+  margin-left: 17px;
+  margin-right: 10px;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.nav-item {
+  padding-left: 10px;
+  position: relative;
+}
+
+.item-1 {
+  flex-grow: 2;
+  display: flex;
+  align-items: flex-start;
+}
+
+.item-6 {
+  padding-right: 60px;
+}
+
+.details-h2 {
+  font-size: 99px;
+  color: #333333;
+  opacity: 0.09;
+  line-height: 17px;
+}
+
+.general-container {
+  margin: 0px 50px;
+}
+
+.title-highlight::after {
+  content: "";
+  display: inline-block;
+  width: 90px;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.dark-section {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 373px;
+}
+
+.nav-button {
+  display: none;
+  background-color: var(--white);
+}
+
+.closebtn {
+  display: none;
+}
+
+.background-blue {
+  border-color: var(--blue);
+}
+
+/* Footer */
+.page-footer {
+  height: 300px;
+  margin-top: 200px;
+}
+.logo-white {
+  width: 265px;
+}
+.social-networks {
+  padding: 0 10px;
+}
+
+ul {
+  padding: 0px;
+}
+
+.background-black {
+  background-color: var(--black);
+}
+
+.color-black,
+.navbar-light .navbar-nav .nav-link.menu:hover,
+.menu-footer:hover,
+.networks-details {
+  color: var(--black);
+}
+
+body,
+.background-white,
+.navbar-light .navbar-nav .nav-link.menu:hover,
+.navbar-light .navbar-nav .nav-link.menu.active::after,
+.navbar-light .navbar-nav .nav-link.menu-footer:hover {
+  background-color: var(--white);
+}
+
+.color-white,
+.navbar-light .navbar-nav .nav-link.menu,
+.title-popular-onix-2:hover {
+  color: var(--white);
+}
+
+.background-dark {
+  background-color: var(--dark);
+}
+
+.color-grey {
+  color: var(--grey);
+}
+
+.background-grey {
+  background-color: var(--grey);
+}
+
+.background-blue,
+.title-highlight::after {
+  background-color: var(--blue);
+}
+
+.color-blue,
+.title-highlight::after {
+  color: var(--blue);
+}
+
+.background-red,
+.red-detail::before {
+  background-color: var(--red);
+}
+
+.color-red {
+  color: var(--red);
+}
+
+.font-gilroy-extra-bold {
+  font-family: "Gilroy-ExtraBold", Helvetica, Arial;
+}
+
+.font-noyh-light {
+  font-family: "Noyh-Light", Helvetica, Arial;
+}
+
+.font-noyh-bold {
+  font-family: "Noyh-Bold", Helvetica, Arial;
+}
+
+.font-noyh-regular {
+  font-family: "Noyh-Regular", Helvetica, Arial;
+}
+
+.font-noyh-black {
+  font-family: "Noyh-Black", Helvetica, Arial;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-17 {
+  font-size: 17px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-25 {
+  font-size: 25px;
+}
+
+.font-size-26 {
+  font-size: 26px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-32 {
+  font-size: 32px;
+}
+
+.font-size-35 {
+  font-size: 35px;
+}
+
+.font-size-36 {
+  font-size: 36px;
+}
+
+.font-size-48 {
+  font-size: 48px;
+}
+
+.font-size-55 {
+  font-size: 55px;
+}
+
+.font-size-60 {
+  font-size: 60px;
+}
+
+.font-size-64 {
+  font-size: 64px;
+}
+
+.font-size-71 {
+  font-size: 71px;
+}
+
+.font-size-82 {
+  font-size: 82px;
+}
+
+.font-size-90 {
+  font-size: 90px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.line-height-2 {
+  line-height: 37px;
+}
+
+.line-height-11 {
+  line-height: 11px;
+}
+
+.line-height-17 {
+  line-height: 17px;
+}
+
+.p-150 {
+  padding: 150px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 213px;
+    margin: 20px 5px;
+  }
+
+  .nav-item .navbar-light .navbar-nav .nav-link.menu {
+    color: var(--white);
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+  }
+
+  .page-footer {
+    height: 245px;
+  }
+
+  .div-footer {
+    font-size: 14px;
+  }
+
+  header {
+    margin-top: 0px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  .navbar {
+    background: #242424;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-footer {
+    height: 368px;
+  }
+
+  .div-footer {
+    font-size: 12px;
+  }
+
+  header {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 409px) {
+  .navbar {
+    background: #242424;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    margin-top: 0px;
+  }
+  .page-footer {
+    height: 379px;
+  }
+}

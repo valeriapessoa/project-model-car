@@ -1,0 +1,370 @@
+.flex-container-1 {
+  position: relative;
+  z-index: 2;
+}
+
+.banner {
+  height: 544px;
+}
+
+.banner-bg {
+  position: absolute;
+  right: 0;
+  background-image: url(../images/popular/banner-car.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75%;
+  height: 720px;
+  top: 0;
+}
+
+.banner-renault {
+  width: 43%;
+  position: absolute;
+  top: 32%;
+  left: -29%;
+  padding: 5px;
+}
+
+.title-1-car-kwid {
+  line-height: 44px;
+}
+
+.red-square {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #ff0000;
+}
+
+.white-square {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.title-highlight::after {
+  background-color: #ff0000;
+}
+
+.button-red {
+  width: 180px;
+}
+
+.button-red:hover {
+  color: var(--white);
+  background-color: #dd4645;
+}
+
+.details {
+  padding: 20px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+  border-radius: 8px;
+}
+
+.car-details {
+  min-height: 180px;
+}
+
+.car-title {
+  height: 96px;
+}
+
+.footer-details {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.car-chevrolet-onix {
+  width: 100%;
+}
+
+.red-detail {
+  position: relative;
+  top: 101px;
+  left: -36px;
+}
+
+.red-detail::before {
+  content: "";
+  width: 83px;
+  height: 225px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.title-popular-onix-1 {
+  width: 200px;
+  position: relative;
+}
+
+.title-popular-onix-2 {
+  padding-left: 200px;
+}
+
+.wheel {
+  position: absolute;
+}
+
+.black-white-section {
+  height: 700px;
+}
+
+.sedan-cronos-popular {
+  padding: 100px 100px 100px 261px;
+}
+
+.white-background {
+  padding-left: 100px;
+}
+
+.img-fiat-cronos {
+  width: 717px;
+  position: relative;
+  bottom: 538px;
+  left: 0;
+}
+
+@media only screen and (max-width: 1399px) {
+  .title-1-car-kwid {
+    font-size: 57px;
+  }
+
+  .container-width {
+    max-width: 90%;
+  }
+
+  .red-detail {
+    top: 69px;
+  }
+
+  .black-white-section {
+    margin-bottom: 30%;
+  }
+
+  .img-fiat-cronos {
+    bottom: 601px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .text-onix {
+    font-size: 22px;
+  }
+
+  .img-fiat-cronos {
+    width: 579px;
+  }
+
+  .sedan-cronos-popular {
+    padding: 100px 51px 100px 172px;
+  }
+
+  .img-fiat-cronos {
+    bottom: 500px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .title-1-car-kwid {
+    font-size: 49px;
+  }
+
+  .red-detail {
+    width: 39%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+
+  .red-detail::before {
+    width: 67px;
+    height: 145px;
+  }
+
+  .title-popular-onix-1 {
+    width: 173px;
+    font-size: 28px;
+    padding-left: 33px;
+  }
+
+  .title-popular-onix-2 {
+    padding-left: 90px;
+  }
+
+  .car-chevrolet-onix {
+    width: 100%;
+    margin-top: 18%;
+  }
+
+  .title-popular-onix-3 {
+    margin-bottom: 64%;
+  }
+
+  .container-onix {
+    position: relative;
+  }
+
+  .img-chevrolet-onix {
+    position: absolute;
+    top: 16%;
+    left: 0;
+  }
+
+  .text-onix {
+    padding-bottom: 101px;
+  }
+
+  .black-white-section {
+    margin-bottom: 107%;
+  }
+
+  .white-background {
+    padding-left: 0;
+    margin-bottom: 61%;
+  }
+
+  .title-fiat-cronos {
+    font-size: 48px;
+  }
+
+  .text-fiat-cronos {
+    font-size: 24px;
+  }
+
+  .container-fiat-cronos {
+    position: relative;
+  }
+
+  .img-fiat-cronos {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    padding: 0;
+  }
+
+  .sedan-cronos-popular {
+    padding: 16% 8% 13% 8%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-bg {
+    height: 65%;
+  }
+
+  .banner {
+    height: 362px;
+  }
+
+  .banner-renault {
+    width: 50%;
+    left: -146px;
+  }
+
+  .title-1-car-kwid {
+    font-size: 39px;
+    line-height: 20px;
+  }
+
+  .title-2-car-kwid {
+    font-size: 30px;
+  }
+
+  .p-150 {
+    padding: 75px 0;
+  }
+
+  .container-width {
+    max-width: 90%;
+  }
+
+  .car-chevrolet-onix {
+    margin-top: 35%;
+  }
+
+  .black-white-section {
+    margin-bottom: 138%;
+  }
+}
+
+@media only screen and (max-width: 409px) {
+  .banner {
+    height: 268px;
+  }
+
+  .banner-bg {
+    height: 410px;
+  }
+
+  .banner-renault {
+    width: 75%;
+    left: -91px;
+  }
+
+  .title-1-car-kwid {
+    font-size: 29px;
+    line-height: 7px;
+  }
+
+  .title-2-car-kwid {
+    font-size: 25px;
+  }
+
+  .p-150 {
+    padding: 12% 0;
+  }
+
+  .title-1-popular {
+    font-size: 18px;
+  }
+
+  .title-2-popular {
+    font-size: 33px;
+  }
+
+  .font-size-32 {
+    font-size: 25px;
+  }
+
+  .red-detail {
+    width: 72%;
+  }
+
+  .car-chevrolet-onix {
+    margin-top: 59%;
+  }
+
+  .title-popular-onix-3 {
+    font-size: 30px;
+  }
+
+  .text-onix {
+    font-size: 24px;
+  }
+
+  .img-chevrolet-onix {
+    top: 11%;
+  }
+
+  .black-white-section {
+    margin-bottom: 246%;
+  }
+
+  .white-background {
+    margin-bottom: 65%;
+  }
+
+  .img-fiat-cronos {
+    top: 19%;
+  }
+
+  .sedan-cronos-popular {
+    padding: 20% 4% 20% 4%;
+  }
+}

@@ -1,0 +1,446 @@
+.flex-container-1 {
+  position: relative;
+  z-index: 2;
+}
+
+.banner {
+  height: 651px;
+}
+
+.banner-bg {
+  position: absolute;
+  background-image: url(../images/luxo/banner-carro-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 721px;
+  top: 0;
+}
+
+.title-1-luxo {
+  margin: 0px;
+  text-shadow: 0.1em 0.1em 0.2em #000000;
+}
+
+.title-2-luxo {
+  text-shadow: 0.1em 0.1em 0.2em #000000;
+}
+
+.text-divo {
+  width: 409px;
+  position: relative;
+  left: 33%;
+  bottom: 211px;
+}
+
+.banner-text {
+  position: absolute;
+  padding-bottom: 50px;
+  padding-left: 3%;
+  padding-top: 100px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.5) 53%,
+    rgba(2, 0, 36, 0) 100%
+  );
+}
+
+.banner-subtitle {
+  line-height: 88px;
+}
+
+.btn-primary {
+  border-color: var(--blue);
+}
+
+.img-video {
+  width: 800px;
+  position: absolute;
+  right: 70px;
+  top: 40px;
+}
+
+.play {
+  width: 90px;
+  position: absolute;
+  right: 418px;
+  top: 212px;
+  z-index: 2;
+}
+
+.dark-div {
+  position: relative;
+  z-index: 1;
+  padding-top: 500px;
+  padding-top: 280px;
+  padding-bottom: 143px;
+}
+
+.title-relative {
+  position: relative;
+}
+
+.car-model-1 {
+  font-size: 14px;
+  transform: rotate(270deg);
+  position: absolute;
+  left: -54px;
+  top: 38px;
+}
+
+.car-model-2 {
+  font-size: 30px;
+}
+
+.car-model-3 {
+  font-size: 80px;
+  line-height: 36px;
+}
+
+.text-divo {
+  width: 100%;
+  position: relative;
+  left: 5%;
+  bottom: -15%;
+  opacity: 0.09;
+}
+
+.video {
+  position: relative;
+  margin-top: 50px;
+}
+
+.div-app {
+  position: relative;
+  z-index: 1;
+  background-image: url(../images/luxo/banner-carro-5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85%;
+  height: 340px;
+  overflow: hidden;
+  border-radius: 38px;
+  margin: -110px auto 0;
+  max-width: 1320px;
+}
+
+.title-app {
+  position: relative;
+  line-height: 27px;
+}
+
+.p-app {
+  position: relative;
+  margin-top: 20px;
+  width: 268px;
+  line-height: 25px;
+}
+
+.div-app-container {
+  margin-left: 60px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.div-app-links {
+  display: inline-flex;
+  margin-top: 20px;
+}
+
+.app-store {
+  width: 162px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.google-play {
+  width: 162px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.btn-details {
+  display: block;
+  text-decoration: none;
+  float: right;
+  cursor: pointer;
+}
+
+.btn-details:hover {
+  color: #1154ef;
+}
+
+.div-divo {
+  z-index: 1;
+}
+
+.indoor-divo-1 {
+  border-color: var(--white);
+  border-left-style: solid;
+  border-left-width: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 40px;
+  width: 100%;
+  margin-top: 4%;
+}
+
+.indoor-divo-2 {
+  margin-top: -10%;
+}
+
+@media only screen and (max-width: 1399px) {
+  .img-video {
+    right: -47px;
+  }
+
+  .play {
+    right: 316px;
+    top: 241px;
+  }
+
+  .indoor-divo-1 {
+    margin-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .dark-div {
+    padding-top: 360px;
+  }
+
+  .text-divo {
+    bottom: 0;
+  }
+
+  .indoor-divo-2 {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .dark-div {
+    padding-top: 500px;
+  }
+
+  .img-video {
+    width: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+  .play {
+    right: 45%;
+  }
+
+  .design-title {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner {
+    height: 366px;
+  }
+
+  .banner-bg {
+    height: 437px;
+  }
+
+  .banner-text {
+    padding-bottom: 36px;
+  }
+
+  .font-size-60 {
+    font-size: 40px;
+  }
+
+  .font-size-82 {
+    font-size: 51px;
+  }
+
+  .banner-subtitle {
+    line-height: 54px;
+  }
+
+  .p-150 {
+    padding: 75px 0;
+  }
+
+  .img-fluid {
+    width: 580px;
+    padding-left: 0px;
+    padding-top: 35px;
+  }
+
+  .dark-section {
+    margin-top: 91px;
+  }
+
+  .img-video {
+    width: 100%;
+    left: 0;
+  }
+
+  .play {
+    width: 64px;
+    right: 45%;
+    top: 180px;
+  }
+
+  .dark-div {
+    padding-top: 413px;
+  }
+
+  .text-divo {
+    left: -19%;
+  }
+
+  .video-divo {
+    width: 100%;
+  }
+
+  .div-app {
+    background-image: url(../images/luxo/banner-mobile-divo.jpg);
+    height: 372px;
+    border-radius: 15px;
+  }
+
+  .p-app {
+    width: 240px;
+    font-size: 18px;
+  }
+
+  .app-store,
+  .google-play {
+    width: 135px;
+  }
+
+  .container-divo-design {
+    margin-top: 11%;
+  }
+
+  .design-title {
+    font-size: 36px;
+    line-height: 79px;
+  }
+
+  .btn-details {
+    padding-top: 52px;
+    padding-left: 65px;
+  }
+
+  .indoor-divo-1 {
+    border-left-width: initial;
+    border-bottom-width: initial;
+    margin-bottom: 11%;
+  }
+}
+
+@media only screen and (max-width: 409px) {
+  header {
+    background-color: var(--black);
+  }
+
+  .banner {
+    height: 284px;
+  }
+
+  .banner-bg {
+    top: 87px;
+  }
+
+  .banner-bg {
+    height: 272px;
+  }
+
+  .banner-text {
+    padding-bottom: 7px;
+  }
+
+  .car-model-3 {
+    font-size: 50px;
+  }
+
+  .video-descriptions {
+    font-size: 20px;
+  }
+
+  .div-app-links {
+    width: 50%;
+  }
+
+  .div-app-container {
+    margin-left: 30px;
+  }
+
+  .title-dinamismo {
+    font-size: 33px;
+  }
+
+  .font-size-60 {
+    font-size: 30px;
+  }
+
+  .font-size-82 {
+    font-size: 40px;
+  }
+
+  .p-150,
+  .container-divo-design {
+    padding: 7%;
+    margin-top: 20%;
+  }
+
+  .play {
+    width: 48px;
+    top: 130px;
+  }
+
+  .video-divo {
+    width: 100%;
+  }
+
+  .dark-div {
+    padding: 80% 7%;
+  }
+
+  .p-app {
+    width: 76%;
+  }
+
+  .text-divo {
+    top: 89%;
+    left: -3%;
+  }
+
+  .details-h2 {
+    font-size: 65px;
+    line-height: 44%;
+  }
+
+  .design-title {
+    font-size: 33px;
+    line-height: 96%;
+  }
+
+  .design-text {
+    padding-top: 1rem !important;
+  }
+
+  .indoor-divo-1 {
+    border-left-width: initial;
+    border-bottom-width: initial;
+    margin: 0;
+  }
+
+  .btn-details {
+    padding-top: 25px;
+    padding-left: 40px;
+  }
+}

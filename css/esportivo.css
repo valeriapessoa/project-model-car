@@ -1,0 +1,332 @@
+.flex-container-1 {
+  position: relative;
+  z-index: 2;
+}
+
+.banner {
+  height: 641px;
+}
+
+.banner-bg {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 473px;
+  top: 0;
+}
+
+.car-1-volvo {
+  width: 61%;
+  position: relative;
+  top: 26%;
+  left: 21%;
+}
+
+.volvo-1-text {
+  position: absolute;
+  bottom: 73%;
+  width: 100%;
+}
+
+.volvo-2-text {
+  width: 19%;
+  position: absolute;
+  bottom: 54%;
+  left: 71%;
+}
+
+.indoor-volvo {
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  height: 453px;
+}
+
+.indoor-volvo::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  background: url(../images/esportivo/bg-sessao-2.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+  opacity: 0.1;
+}
+
+.title-highlight::after {
+  background-color: var(--red);
+  border-radius: 0;
+}
+
+.rear-volvo {
+  margin-left: -16%;
+}
+
+.div-details {
+  background-color: #f2f2f2;
+  border: 3px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+
+.dark-section-bmw {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.tire-detail {
+  position: absolute;
+  width: 26%;
+  bottom: 0;
+  left: 0%;
+  opacity: 0.09;
+}
+
+.details-h2 {
+  color: #333333;
+  opacity: 0.09;
+  line-height: 0px;
+}
+
+.img-car-bmw {
+  width: 100%;
+}
+
+.link-menu {
+  margin-right: 24px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .banner-bg {
+    height: 403px;
+  }
+
+  .p-150 {
+    padding: 100px 0;
+  }
+  .rear-volvo {
+    margin-left: -23%;
+  }
+
+  .title-volvo {
+    font-size: 22px;
+  }
+
+  .text-volvo {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .volvo-2-text {
+    width: 26%;
+    left: 68%;
+  }
+
+  .banner {
+    height: 560px;
+  }
+
+  .car-1-volvo {
+    top: 25%;
+  }
+
+  .p-150 {
+    padding: 117px 0;
+  }
+
+  .rear-volvo {
+    margin-left: -26%;
+  }
+
+  .title-performance-2 {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .title-performance-2 {
+    font-size: 52px;
+  }
+
+  .details-h2 {
+    font-size: 75px;
+  }
+
+  .title-bmw {
+    font-size: 56px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-bg {
+    height: 325px;
+  }
+
+  .banner {
+    height: 430px;
+  }
+  .car-1-volvo {
+    width: 77%;
+    top: 32%;
+    left: 15%;
+  }
+
+  .volvo-1-text {
+    bottom: 73%;
+  }
+
+  .volvo-2-text {
+    width: 31%;
+    bottom: 57%;
+    left: 67%;
+  }
+
+  .text-2-volvo,
+  .title-1-esportivo {
+    font-size: 20px;
+  }
+
+  .title-2-esportivo {
+    font-size: 40px;
+  }
+
+  .container-width {
+    max-width: 90%;
+  }
+
+  .indoor-volvo {
+    border-radius: 0;
+  }
+
+  .div-volvo-text {
+    margin-top: 7%;
+  }
+
+  .title-performance-1 {
+    font-size: 20px;
+  }
+
+  .title-performance-2 {
+    font-size: 36px;
+  }
+
+  .dark-section-bmw {
+    height: 913px;
+  }
+
+  .img-bmw {
+    margin-bottom: 26%;
+    margin-top: 10%;
+  }
+
+  .details-h2 {
+    margin-top: 16%;
+    font-size: 62px;
+  }
+
+  .title-bmw {
+    font-size: 53px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .link-menu {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 409px) {
+  .link-menu {
+    margin-right: 0px;
+  }
+
+  .banner {
+    height: 340px;
+  }
+
+  .banner-bg {
+    height: 316px;
+  }
+
+  .car-1-volvo {
+    width: 80%;
+    top: 47%;
+    left: 12%;
+  }
+
+  .volvo-1-text {
+    bottom: 78%;
+  }
+
+  .img-svg {
+    width: 33px;
+  }
+
+  .text-1-volvo {
+    font-size: 10px;
+  }
+
+  .text-2-volvo {
+    font-size: 12px;
+  }
+
+  .volvo-2-text {
+    width: 34%;
+    bottom: 70%;
+    left: 65%;
+  }
+
+  .title-1-esportivo {
+    font-size: 12px;
+  }
+
+  .title-2-esportivo {
+    font-size: 25px;
+  }
+
+  .p-150 {
+    padding: 9px;
+  }
+
+  .container-volvo {
+    margin-bottom: 37%;
+  }
+
+  .dark-section-bmw {
+    margin-top: 37%;
+    margin-bottom: 23%;
+  }
+
+  .details-h2 {
+    font-size: 38px;
+    margin-bottom: 0;
+  }
+
+  .title-performance-2 {
+    font-size: 44px;
+  }
+
+  .text-volvo {
+    font-size: 18px;
+  }
+
+  .title-volvo {
+    font-size: 21px;
+  }
+
+  .title-bmw {
+    font-size: 37px;
+    line-height: 31px;
+  }
+
+  .title-desempenho {
+    font-size: 31px;
+  }
+
+  .text-desempenho {
+    margin-bottom: 0;
+  }
+}
