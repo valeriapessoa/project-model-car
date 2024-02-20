@@ -187,6 +187,10 @@ ul {
   color: var(--black);
 }
 
+.menu-footer:hover {
+  color: var(--blue);
+}
+
 body,
 .background-white,
 .navbar-light .navbar-nav .nav-link.menu:hover,
